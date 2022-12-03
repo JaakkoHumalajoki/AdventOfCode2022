@@ -1,4 +1,7 @@
 import fs from 'fs'
+import path from 'path'
+
+const input = fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf8')
 
 const pointsForHand = { A: 1, B: 2, C: 3 }
 
@@ -13,8 +16,6 @@ const instructionGuide = {
   Y: { A: 'A', B: 'B', C: 'C' },
   Z: { A: 'B', B: 'C', C: 'A' }
 }
-
-const input = fs.readFileSync('input.txt', 'utf8')
 
 const rows = input.split('\n')
 let totalPoints = 0

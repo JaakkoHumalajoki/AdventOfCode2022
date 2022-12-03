@@ -1,6 +1,7 @@
 import fs from 'fs'
+import path from 'path'
 
-const caloryInput = fs.readFileSync('input.txt', 'utf8')
+const caloryInput = fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf8')
 
 const inputSplit = caloryInput.split('\n')
 const caloriesPerElf = [0]
