@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs'
 
 const caloryInput = fs.readFileSync('input.txt', 'utf8')
 

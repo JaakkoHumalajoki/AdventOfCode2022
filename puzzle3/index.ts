@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs'
 
 const pointsForHand = { Y: 2, X: 1, Z: 3 }
 
@@ -15,6 +15,8 @@ let totalPoints = 0
 
 rows.forEach((row) => {
   const [enemyHand, myHand] = row.split(' ')
+  if (enemyHand !== 'A' && enemyHand !== 'B' && enemyHand !== 'C') return
+  if (myHand !== 'X' && myHand !== 'Y' && myHand !== 'Z') return
   const handPoints = pointsForHand[myHand]
   const matchPoints = winPoints[enemyHand][myHand]
   totalPoints += handPoints + matchPoints

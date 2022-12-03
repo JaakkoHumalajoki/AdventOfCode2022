@@ -14,10 +14,8 @@
     "url": "https://github.com/JaakkoHumalajoki/AdventOfCode2022/issues"
   },
   "homepage": "https://github.com/JaakkoHumalajoki/AdventOfCode2022#readme",
-  "dependencies": {
-    "node": "^19.2.0"
-  },
   "devDependencies": {
+    "@types/node": "^18.11.10",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "eslint": "^8.28.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
@@ -25,5 +23,8 @@
     "eslint-plugin-n": "^15.5.1",
     "eslint-plugin-promise": "^6.1.1",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }

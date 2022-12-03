@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs'
 
 const caloryInput = fs.readFileSync('input.txt', 'utf8')
 
@@ -16,7 +16,7 @@ for (let i = 0; i < inputSplit.length; ++i) {
   caloriesPerElf[caloriesPerElf.length - 1] += value
 }
 
-const sorted = caloriesPerElf.sort((a,b) => b - a)
+const sorted = caloriesPerElf.sort((a, b) => b - a)
 const [s1, s2, s3] = sorted
 
 console.log(`Top three: ${s1}, ${s2}, ${s3}`)
