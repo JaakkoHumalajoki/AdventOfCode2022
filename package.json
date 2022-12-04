@@ -9,7 +9,8 @@
     "puzzle3": "ts-node ./puzzle3/index.ts",
     "puzzle4": "ts-node ./puzzle4/index.ts",
     "puzzle5": "ts-node ./puzzle5/index.ts",
-    "puzzle6": "ts-node ./puzzle6/index.ts"
+    "puzzle6": "ts-node ./puzzle6/index.ts",
+    "puzzle7": "ts-node ./puzzle7/index.ts"
   },
   "repository": {
     "type": "git",
