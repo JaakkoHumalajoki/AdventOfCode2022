@@ -24,7 +24,8 @@
     "puzzle18": "ts-node ./puzzle18/index.ts",
     "puzzle19": "ts-node ./puzzle19/index.ts",
     "puzzle20": "ts-node ./puzzle20/index.ts",
-    "puzzle21": "ts-node ./puzzle21/index.ts"
+    "puzzle21": "ts-node ./puzzle21/index.ts",
+    "puzzle22": "ts-node ./puzzle22/index.ts"
   },
   "repository": {
     "type": "git",
